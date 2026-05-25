@@ -1,0 +1,41 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables and local configuration
+.env
+.env.*
+!.env.example
+
+# Build output and caches
+dist/
+build/
+coverage/
+.nyc_output/
+.cache/
+.parcel-cache/
+.next/
+out/
+
+# Docker local files
+.docker/
+docker-compose.override.yml
+
+# Local MongoDB data
+data/
+mongo-data/
+mongodb-data/
+db/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
